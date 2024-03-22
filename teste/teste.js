@@ -1,8 +1,7 @@
 function somar() {
-    let numero1 = document.getElementById('numero1').value
-    let numero2 = document.getElementById('numero2').value
-    res = document.getElementById('res')
-    let resultado = numero1 + numero2
-    res.innnerHTML = `${resultado}`
+    let n1 = document.getElementById('numero1').value
+    let n2 = document.getElementById('numero2').value
+    resultado = parseInt(n1) + parseInt(n2)
+    document.getElementById('res').innerHTML = `a resposta é ${resultado}`
 
 }
