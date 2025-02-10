@@ -1,5 +1,5 @@
 import { Livro } from "./livro";
-export class Escolha {
+export class Biblioteca {
     private livros: Livro[];
 
     constructor() {

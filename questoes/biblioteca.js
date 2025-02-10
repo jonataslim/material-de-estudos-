@@ -1,19 +1,19 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.Escolha = void 0;
-var Escolha = /** @class */ (function () {
-    function Escolha() {
+exports.Biblioteca = void 0;
+var Biblioteca = /** @class */ (function () {
+    function Biblioteca() {
         this.livros = [];
     }
-    Escolha.prototype.addLivro = function (livro) {
+    Biblioteca.prototype.addLivro = function (livro) {
         this.livros.push(livro);
     };
-    Escolha.prototype.listarLivros = function () {
+    Biblioteca.prototype.listarLivros = function () {
         console.log('opcoes de livro');
         this.livros.forEach(function (livro) {
             console.log(livro.descricao());
         });
     };
-    return Escolha;
+    return Biblioteca;
 }());
-exports.Escolha = Escolha;
+exports.Biblioteca = Biblioteca;
